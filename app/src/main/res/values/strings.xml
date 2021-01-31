@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Advanced Settings</string>
+    <!-- Settings Activity Title -->
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Screen</string>
+    <string name="sync_header">Performance</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Device Dpi</string>
+    <string name="reply_title">Default Refresh Rate</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">High Performance Mode</string>
+    <string name="attachment_title">General High Performance Mode</string>
+    <string name="attachment_summary_on">Force all the apps to use high performance mode
+    </string>
+    <string name="attachment_summary_off">Automatically recognize suitable scheduil for games</string>
+    <string name="cpusche" >CPU running mode</string>
+    <string name="statusbar">StatusBar</string>
+</resources>

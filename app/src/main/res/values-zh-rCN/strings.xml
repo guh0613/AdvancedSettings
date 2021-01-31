@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">高级设置</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="messages_header">屏幕</string>
+    <string name="sync_header">性能</string>
+    <string name="signature_title">设备dpi</string>
+    <string name="reply_title">全局屏幕刷新率</string>
+    <string name="sync_title">高性能模式</string>
+    <string name="attachment_title">全局高性能模式</string>
+    <string name="attachment_summary_on">强制所有应用使用高性能调度</string>
+    <string name="attachment_summary_off">自动识别游戏并选择合适的调度</string>
+    <string name="cpusche" >CPU调度参数</string>
+    <string name="statusbar" >状态栏</string>
+</resources>
