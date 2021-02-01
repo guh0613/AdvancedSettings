@@ -18,5 +18,5 @@
     </string>
     <string name="attachment_summary_off">Automatically recognize suitable scheduil for games</string>
     <string name="cpusche" >CPU running mode</string>
-    <string name="statusbar">StatusBar</string>
+    <string name="statusbar">SystemUi</string>
 </resources>

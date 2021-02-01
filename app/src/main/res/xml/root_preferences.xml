@@ -4,11 +4,14 @@
     <PreferenceCategory app:title="@string/messages_header">
 
         <EditTextPreference
+            android:icon="@drawable/ic_action_name"
+            app:defaultValue="nim"
             app:key="signature"
             app:title="@string/signature_title"
             app:useSimpleSummaryProvider="true" />
 
         <ListPreference
+            android:icon="@drawable/ic_refresh_rate"
             app:defaultValue="90hz"
             app:entries="@array/reply_entries"
             app:entryValues="@array/reply_values"
@@ -20,15 +23,18 @@
 
     <PreferenceCategory app:title="@string/sync_header">
         <ListPreference
-            app:useSimpleSummaryProvider="true"
-            app:key="cpusche"
+            android:icon="@drawable/ic_sche"
             app:defaultValue="balance"
             app:entries="@array/sche_entries"
             app:entryValues="@array/sche_values"
-            app:title="@string/cpusche" />
+            app:key="cpusche"
+            app:title="@string/cpusche"
+            app:useSimpleSummaryProvider="true" />
 
         <SwitchPreferenceCompat
+            app:icon="@drawable/ic_performance"
             app:key="sync"
+            app:summary="手机将保持高性能运转，可能增加耗电量"
             app:title="@string/sync_title" />
 
         <SwitchPreferenceCompat
@@ -42,10 +48,12 @@
     <PreferenceCategory app:title="@string/statusbar">
         <Preference
             android:key="statusbar_setting"
-            android:title="状态栏设置"
-            android:summary="自定义状态栏图标" >
+            android:summary="自定义状态栏，音量条等"
+            android:title="系统界面设置"
+            app:icon="@drawable/ic_ui">
             <intent
-                android:targetPackage="com.android.systemui" android:targetClass="com.android.systemui.DemoMode" />
+                android:targetClass="com.android.systemui.DemoMode"
+                android:targetPackage="com.android.systemui" />
         </Preference>
     </PreferenceCategory>
 

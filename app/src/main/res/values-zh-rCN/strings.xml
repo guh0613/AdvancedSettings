@@ -11,5 +11,5 @@
     <string name="attachment_summary_on">强制所有应用使用高性能调度</string>
     <string name="attachment_summary_off">自动识别游戏并选择合适的调度</string>
     <string name="cpusche" >CPU调度参数</string>
-    <string name="statusbar" >状态栏</string>
+    <string name="statusbar" >界面</string>
 </resources>
