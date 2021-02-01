@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="reply_entries">
+        <item>90hz</item>
+        <item>60hz</item>
+        <item>全局你妈，我自己来</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>90hz</item>
+        <item>60hz</item>
+        <item>全局你妈，我自己来</item>
+    </string-array>
+
     <string-array name="sche_entries" >
         <item>省电</item>
         <item>均衡</item>

@@ -4,7 +4,7 @@
     <PreferenceCategory app:title="@string/messages_header">
 
         <EditTextPreference
-            android:icon="@drawable/ic_action_name"
+            android:icon="@drawable/ic_dpi"
             app:defaultValue="nim"
             app:key="signature"
             app:title="@string/signature_title"
@@ -44,6 +44,11 @@
             app:summaryOn="@string/attachment_summary_on"
             app:title="@string/attachment_title" />
 
+        <SwitchPreferenceCompat
+            app:icon="@drawable/ic_gpu"
+            app:key="gpu"
+            app:summary="使用gpu代替cpu进行所有图形界面合成，能够提升流畅度，但会增加耗电量"
+            app:title="GPU高速打工模式" />
     </PreferenceCategory>
     <PreferenceCategory app:title="@string/statusbar">
         <Preference

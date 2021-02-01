@@ -3,11 +3,13 @@
     <string-array name="reply_entries">
         <item>90hz</item>
         <item>60hz</item>
+        <item>Do not force fps</item>
     </string-array>
 
     <string-array name="reply_values">
         <item>90hz</item>
         <item>60hz</item>
+        <item>Do not force fps</item>
     </string-array>
 
     <string-array name="sche_entries" >
